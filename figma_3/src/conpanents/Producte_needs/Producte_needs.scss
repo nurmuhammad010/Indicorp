@@ -1,0 +1,304 @@
+@use "../../sass/varebels.scss" as *;
+
+.Producte_needs {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid gray;
+    gap: 20px;
+
+    .Producte_neeeds_top {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        gap: 110px;
+
+        .Producte_type {
+            height: 219px;
+            width: 1326px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            flex-wrap: wrap;
+
+            h6 {
+                width: 100%;
+                display: flex;
+                margin-left: 70px;
+            }
+
+            .needs_type {
+                display: flex;
+                height: 150px;
+                width: 850px;
+                flex-direction: column;
+                gap: 20px;
+
+            }
+
+            .header_num {
+                display: flex;
+                height: 55px;
+                width: 337px;
+                gap: 25px;
+                text-align: left;
+                margin-bottom: 60px;
+
+            }
+
+        }
+
+        .Producte_needs_card {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .card1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+                gap: 10px;
+                height: 196px;
+                width: 220px;
+
+                img {
+                    width: 57px;
+                    height: 58px;
+                }
+            }
+
+            .card1:hover {
+                background-color: $hover_color;
+            }
+
+            .card2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+                gap: 10px;
+                height: 196px;
+                width: 220px;
+
+                img {
+                    width: 57px;
+                    height: 58px;
+                }
+            }
+
+            .card2:hover {
+                background-color: $hover_color;
+            }
+
+            .card3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+                gap: 10px;
+                height: 196px;
+                width: 220px;
+
+                img {
+                    width: 57px;
+                    height: 58px;
+                }
+            }
+
+            .card3:hover {
+                background-color: $hover_color;
+            }
+
+            .card4 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+                gap: 10px;
+                height: 196px;
+                width: 220px;
+
+                img {
+                    width: 57px;
+                    height: 58px;
+                }
+            }
+
+            .card4:hover {
+                background-color: $hover_color;
+            }
+
+            .card5 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+                gap: 10px;
+                height: 196px;
+                width: 220px;
+
+                img {
+                    width: 57px;
+                    height: 58px;
+                }
+            }
+
+            .card5:hover {
+                background-color: $hover_color;
+            }
+        }
+    }
+
+    .Producte_needs_button {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        justify-content: space-between;
+        align-items: center;
+
+        .needs_left {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+
+            .neeeds_cards {
+                width: 100%;
+                height: 250px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 30px;
+
+                .cards1 {
+                    height: 142px;
+                    width: 220px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    img {
+                        height: 142px;
+                        width: 220px;
+                    }
+                }
+
+                .cards2 {
+                    height: 142px;
+                    width: 220px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    img {
+                        height: 142px;
+                        width: 220px;
+                    }
+                }
+
+                .cards3 {
+                    height: 142px;
+                    width: 220px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    img {
+                        height: 142px;
+                        width: 220px;
+                    }
+                }
+            }
+        }
+
+        .needs_right {
+            display: flex;
+            width: 40%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+
+            .icon_type_img {
+                display: flex;
+                flex-direction: column;
+                height: 218px;
+                align-items: center;
+                gap: 50px;
+
+
+                .icon_num {
+                    display: flex;
+                    width: 300px;
+                    height: 100px;
+                    flex-direction: column;
+                    background-color: #FAFAFA;
+                    border-bottom: 4px solid #DBBD02;
+
+                    .type_calendar {
+                        display: flex;
+                        gap: 40px;
+                        align-items: center;
+
+                        .type_calendar img {
+                            width: 57px;
+                            height: 57px;
+                        }
+
+
+                        .type_wrap {
+                            display: flex;
+                            flex-direction: column;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+
+            .typeNumber {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                gap: 10px;
+
+                .icon_num1 {
+                    display: flex;
+                    gap: 10px;
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+       }
+
+    }
+}

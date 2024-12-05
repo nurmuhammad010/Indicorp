@@ -1,0 +1,114 @@
+.Providing{
+    height: 911px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 100px;
+
+}
+.Providing_type{
+    width: 100%;
+    height: 169px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.Providing_type h3{
+   
+    width: 480px;  
+    font-size: 1.5rem; 
+}
+.Providing_type span{
+    height: 40px;
+width: 511px;
+}
+.Providing_content{
+    height: 442px;
+    width: 1053px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 120px;
+}
+.Providing_card1{
+    height: 442px;
+width: 600px;
+}
+.Providing_card2{
+    height: 438px;
+    width: 333px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 35px;
+   flex-direction: column;
+    
+}
+.Most{
+    height: 224px;
+    width: 330px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+
+}
+.Most h3{
+    font-size: 1.3rem;
+}
+.quck{
+    height: 77px;
+    width: 333px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+.quck .left{
+    width: 50px;
+    height: 76px;
+    display: flex;
+
+}
+.left img{
+width: 32px;
+height: 32px;
+}
+.type{
+    height: 77px;
+    width: 277px;
+    display: flex;
+    flex-direction: column;
+     
+}
+.fox{
+        height: 77px;
+        width: 333px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.fox .left{
+    width: 50px;
+    height: 75px;
+    display: flex;
+
+}
+.left img{
+    width: 32px;
+    height: 32px;
+    }
+    .type{
+        height: 77px;
+        width: 277px;
+        display: flex;
+        flex-direction: column; 
+    }
+    

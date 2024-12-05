@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar_1 {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  background-color: #10203f;
+  flex-direction: column;
+}
+
+.navbar_card {
+  display: flex;
+  justify-content: space-around;
+  height: 120px;
+  align-items: center;
+  gap: 220px;
+}
+
+.navbar_logo {
+  color: aqua;
+  cursor: pointer;
+}
+
+.menu1 {
+  display: flex;
+  gap: 10px;
+}
+
+.nav_button {
+  display: flex;
+  height: 45px;
+  align-items: center;
+}
+
+.nav-btn {
+  display: flex;
+  background-color: gold;
+  color: black;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+h1 a {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.popover {
+  display: none;
+  box-shadow: 0px 6px 8px rgba(19, 19, 19, 0.7);
+}
+
+.popover:target {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.popover .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #19191964;
+  animation: 2s grow ease forwards;
+  text-align: center;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+.nav_list {
+  list-style-type: none;
+}
+
+.nav_list a {
+  text-decoration: none;
+  font-size: 50px;
+  color: #fff;
+}
+
+.nav_list_item {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  text-align: left;
+  gap: 5px;
+  cursor: pointer;
+}
+
+
+.nav_list li {
+  padding: 15px 0;
+  text-transform: uppercase;
+  transform: translateY(200px);
+  animation: 1s slideUp ease forwards 0.5s;
+  position: relative;
+  opacity: 0;
+}
+
+.nav_list li::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 10px;
+  background-color: #e1c540;
+  transition: all 0.5 ease;
+  left: 0;
+  width: 0;
+  height: 2px;
+}
+
+.nav_list li:hover::before {
+  width: 100%;
+}
+
+.popover p {
+  opacity: 0;
+  animation: 1s fadeIn ease forwards 1s;
+}
+
+.popover .close::after {
+  content: "x";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  font-size: 30px;
+  background-color: #40e1d3;
+  color: #191919;
+  opacity: 0;
+  animation: 10s fadeIn ease forwards 0.5s;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+@keyframes grow {
+  100% {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.aylana_box {
+  display: flex;
+  width: 35%;
+  justify-content: center;
+}
+
+.aylana {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.aylana img {
+  width: 150px;
+  height: 150px;
+}
+
+.navbar_image_card_flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 100px;
+  justify-content: flex-end;
+  gap: 220px;
+}
+
+.navbar_image_card {
+  width: 60%;
+  height: 350px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.navbar_img_type_card {
+  display: flex;
+  height: 400px;
+  width: 55%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar_img_type {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  color: wheat;
+}
+
+.navbar_img_type span {
+  text-shadow: 1px 1px white;
+}
+
+.navbar_img_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00b2ff80;
+  font-size: 1.3rem;
+  width: 100px;
+  height: 350px;
+  background-color: #2257bf40;
+}
+
+.end_box {
+  display: flex;
+  width: 99%;
+  justify-content: center;
+}
+
+.end_card {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  height: 50px;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  color: #00b2ff;
+  width: 700px;
+  height: 40px;
+  background-color: #2257bf;
+  gap: 55px;
+}
+
+.end_type {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+}
+
+.end_type2 {
+  display: flex;
+  color: white;
+  align-items: center;
+  gap: 10px;
+}
+
+.end_type2 h2 {
+  color: #00b2ff;
+  font-size: 2.1rem;
+}

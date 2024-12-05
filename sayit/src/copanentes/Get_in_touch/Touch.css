@@ -1,0 +1,186 @@
+.Touch{
+    height: 740px;
+    width: 100%;
+  display: flex;
+justify-content: center;
+gap: 80px;
+ align-items: center;
+ flex-direction: column; 
+ background-color: #fafafa;
+  
+}
+.Touch_type{
+    height: 107px;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+text-align: center;
+   gap: 5px;
+}
+.Touch_type h3{
+    font-size: 1.5rem;
+}
+.Touch_content{
+    height: 393px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+.Touch_card1{
+    height: 333px;
+width: 328px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #ffffff;
+flex-direction: column;
+gap: 10px;
+
+}
+.Touch_card1:hover{
+    height: 393px;
+    background-color: #252B42;
+    color: white;
+}
+.Touch_card1:hover button{
+    border: 2px solid #FFA62B;
+    color: #fafafa;
+    background-color: #252B42;
+}
+.Touch_card1:hover img{
+    filter: invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg)
+    brightness(119%) contrast(115%);  
+}
+.Touch_card1 img{
+    height: 72px;
+width: 72px;
+
+}
+.Touch_card1 span{
+    width: 221px;
+    text-align: center;
+}
+.Touch_card1 h4{
+   font-size: 1.3rem; 
+   margin-top: 15px;
+}
+.Touch_card1 button{
+    height: 44px;
+    width: 160px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+     border: 2px solid #FFA62B;
+     color: #FFA62B;
+     background-color: #ffffff;
+}
+.Touch_card2{
+    height: 333px;
+width: 328px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+gap: 10px;
+background-color: #ffffff;
+
+}
+.Touch_card2:hover{
+    height: 393px;
+    background-color: #252B42;
+    color: white;
+}
+.Touch_card2:hover button{
+    border: 2px solid #FFA62B;
+    color: #fafafa;
+    background-color: #252B42;
+}
+.Touch_card2:hover img{
+    filter: invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg)
+    brightness(119%) contrast(115%);
+}
+.Touch_card2 img{
+    height: 72px;
+width: 72px;
+filter: invert(16%) sepia(99%) saturate(7404%) hue-rotate(4deg)
+      brightness(95%) contrast(75%);
+}
+.Touch_card2 span{
+
+    width: 221px;
+    text-align: center;
+}
+.Touch_card2 h4{
+   font-size: 1.3rem;
+   margin-top: 15px; 
+}
+.Touch_card2 button{
+    height: 44px;
+    width: 160px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+     border: 2px solid #FFA62B;
+     color: #FFA62B;
+     background-color: #ffffff;
+}
+.Touch_card3{
+    height: 333px;
+width: 328px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+gap: 10px;
+background-color: #ffffff;
+
+}
+.Touch_card3:hover{
+    height: 393px;
+    background-color: #252B42;
+    color: white;
+}
+.Touch_card3:hover button{
+    border: 2px solid #FFA62B;
+    color: #fafafa;
+    background-color: #252B42;
+}
+.Touch_card3:hover img{
+    filter: invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg)
+    brightness(119%) contrast(115%);
+}
+.Touch_card3 img{
+    height: 72px;
+width: 72px;
+
+}
+.Touch_card3 span{
+
+    width: 221px;
+    text-align: center;
+}
+.Touch_card3 h4{
+   font-size: 1.3rem; 
+   margin-top: 15px;
+}
+.Touch_card3 button{
+    height: 44px;
+    width: 160px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+     border: 2px solid #FFA62B;
+     color: #FFA62B;
+     background-color: #ffffff;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "itworld4",
+			"path": "."
+		},
+		{
+			"name": "src",
+			"path": "../itworld/src"
+		}
+	],
+	"settings": {}
+}

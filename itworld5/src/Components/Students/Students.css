@@ -1,0 +1,111 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.students{
+ width: 100%;
+ height: 80vh;
+}
+
+.students_card{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ justify-content: center;
+ height: 600px;
+ gap: 40px;
+}
+
+.student_type{
+ width: 60%;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ font-size: 40px;
+ color: rgb(222, 219, 219);
+}
+
+.student_type h3{
+ text-shadow: 1px 1px #003294;
+}
+
+.students_img_card{
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ gap: 40px;
+}
+
+.students_img_card img{
+ width: 220px;
+ height: 250px;
+}
+
+.type_student_gap{
+ display: flex;
+ gap: 30px;
+ flex-direction: column;
+ text-align: left;
+}
+
+.type_student{
+ display: flex;
+ text-align: left;
+ flex-direction: column;
+ gap: 5px;
+}
+
+.type_student_buttom_type{
+   width: 100%;
+   justify-content: center;
+}
+
+.center_background_image_card{
+   width: 100%;
+   justify-content: flex-end;
+   display: flex;
+}
+
+.center_background_image{
+   width: 200px;
+   height: 130px;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+.type_student_buttom_type{
+   display: flex;
+}
+
+.button_left_right{
+   width: 100%;
+   justify-content: flex-end;
+   display: flex;
+   gap: 20px;
+}
+
+.button_left_right button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   font-size: 35px;
+   background-color: #C4C4C4;
+   color: #fff;
+   border: #C4C4C4;
+}
+
+
+.button_left_right button:hover{
+   background-color: #003294;
+   cursor: pointer;
+}
+
+.student_type_end{
+   display: flex;
+   flex-direction: column;
+}

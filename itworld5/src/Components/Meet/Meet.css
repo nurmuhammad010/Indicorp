@@ -1,0 +1,132 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.meet{
+ width: 100%;
+ height: 200vh;
+}
+
+.meet_card{
+ display: flex;
+ flex-direction: column;
+ height: 85vh;
+ align-items: center;
+ justify-content: center;
+ gap: 50px;
+}
+
+.meet_type h1{
+  color: white;
+  text-shadow: 1px 1px 3px   #003294;
+  font-size: 2.5rem;
+}
+
+
+.meet_card2{
+ display: flex;
+ gap: 15px;
+ justify-content: center;
+ width: 100%;
+}
+
+.meet_icon{
+ font-size: 2.2rem;
+ color: #C4C4C4;
+}
+
+.meet_icon:hover{
+ color: #003294;
+ cursor: pointer;
+}
+
+.meet_box{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.meet_box img{
+ width: 200px;
+ height: 200px;
+}
+
+.meet_icon_box{
+ height: 200px;
+ display: flex;
+ align-items: center;
+}
+
+.meet_card_end{
+  width: 100%;
+  height: 50vh;
+}
+
+.meet_card_type_end h1{
+  color: white;
+  text-shadow: 1px 1px 3px    #003294;
+  font-size: 2.5rem;
+}
+
+.meet_end_card{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.meet_end_cardd{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  width: 68%;
+  justify-content: center;
+}
+
+.meet_end_box{
+  display: flex;
+  width: 220px;
+  height: 320px;
+  align-items: center;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.end_type{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.end_type h4{
+  width: 30px;
+  height: 30px;
+  background-color: #00B2FF14;
+  color: #00B2FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.end_img img{
+  width: 40%;
+  
+}
+
+.meet_end_type2{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.meet_end{
+  color: #2257BF;
+}
+

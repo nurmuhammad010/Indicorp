@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100%;
+  height: 180vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .icon_type_card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .icon_box0 {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+
+      .icon_box11 {
+        width: 130px;
+        border-top: 7px solid #00b2ff;
+      }
+
+      .icon_box2 {
+        font-size: 5.4rem;
+        color: #00b2ff;
+      }
+    }
+
+    .type_card {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+
+      .card_type1 {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      }
+    }
+  }
+
+  .icon_cardd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 90px;
+    height: 120vh;
+
+    .icon_card {
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+      display: flex;
+      gap: 100px;
+
+      .icon1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        h1 {
+          font-size: 7rem;
+          color: #00b2ff;
+        }
+
+        .gap {
+          display: flex;
+          flex-direction: column;
+        }
+      
+      }
+    }
+  }
+}

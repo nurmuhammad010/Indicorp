@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   .busines-box{
+    width: 100%;
+    height: 170vh;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .busines-typee{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10%;
+    font-size: 1.3rem;
+   }
+   
+   .span-text{
+    display: flex;
+    flex-direction: column;
+   }
+   
+   .business-content{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+   }
+   
+   .busines-img img{
+    width: 500px;
+    height: 370px;
+   }
+   
+   .busines-type2{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-align: left;
+   }
+   
+   .busines-type3{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10%;
+    gap: 15px;
+   }
+   
+   .most-type{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+   }
+   
+   .bus-icon{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+   }
+   
+   .buttonbox{
+    display: flex;
+    width: 986px;
+    height: 124px;
+    align-items: center;
+    justify-content: center;
+    gap:200px;
+    background-color: #16697A;
+    border-radius: 5px;
+   
+   }
+   .type-input1{
+    padding-right: 25px;
+   }
+   
+   
+   .type-input{
+    display: flex;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 32px;
+    color: white;
+   }
+   
+   
+   .type-input  input {
+    width: 350px;
+    height: 58px;
+    padding-left: 10px;
+   }
+   
+   .type-input button{
+    width: 117px;
+    height: 58px;
+    background: #FFA62B;
+   border: 1px solid #E6E6E6;
+   color: white;
+   cursor: pointer;
+   }
+   
+   .button-type-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    background-color: #FAFAFA;
+   }

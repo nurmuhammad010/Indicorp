@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   .headernum {
+     display: flex;
+     width: 200px;
+      flex-direction:  column;
+     text-align: left;
+    }
+   
+    .headernum{ 
+      .phone{
+     display: flex;
+     width: 335px;
+     align-items: center;
+     gap: 5px;
+    }
+  }
+   
+    .headernum{
+       .phone{
+          img{
+          width: 35px;
+           height: 35px;
+        }
+      }
+    }

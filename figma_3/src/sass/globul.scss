@@ -1,0 +1,14 @@
+@use "./varebels.scss" as *;
+
+*{
+    background-color: $secondary_color;
+}
+.navbar{
+    background-color: green;
+    .menu{
+        list-style: none;
+        &:hover li{
+            padding: 10px 20px;
+        }
+    }
+}

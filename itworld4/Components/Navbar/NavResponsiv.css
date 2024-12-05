@@ -1,0 +1,7 @@
+@media (max-width:600px) {
+ .navbar_logo{
+  width: 100%;
+  align-items: center;
+  display: none;
+ }
+}

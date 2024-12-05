@@ -1,0 +1,13 @@
+$primary_color:green;
+$secondary_color:grey;
+$header_color:black;
+$hover_color: white;
+$active_color:blue;
+$font:montserrat;
+$fotn_size:40px;
+
+@mixin button($x, $y,){
+    padding: $x $y;
+    border: none;
+    background-color: $primary_color;
+}
